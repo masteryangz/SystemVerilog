@@ -1,0 +1,35 @@
+vsim +acc tb_key_filter
+# ** Warning: (vsim-8689) Ignoring plusarg '+acc'.  Did you mean '-voptargs=+acc'?
+# vsim "+acc" tb_key_filter 
+# Start time: 18:56:25 on Jan 12,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb_key_filter(fast)
+add wave sim:/tb_key_filter/key_filter_inst/*
+add wave sim:/tb_key_filter/#INITIAL#15/*
+run -all
+# Break key hit
+# Break in Module tb_key_filter at tb_key_filter.v line 23
+add wave  \
+sim:/tb_key_filter/key_flag
+add wave sim:/tb_key_filter/#ALWAYS#23/*
+add wave  \
+sim:/tb_key_filter/key_flag
+run -all
+# Break key hit
+# Simulation stop requested.
+vsim-voptargs=+acc tb_key_filter
+# invalid command name "vsim-voptargs=+acc"
+vsim -voptargs=+acc tb_key_filter
+# End time: 19:01:40 on Jan 12,2025, Elapsed time: 0:05:15
+# Errors: 0, Warnings: 2
+# vsim -voptargs="+acc" tb_key_filter 
+# Start time: 19:01:40 on Jan 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10587) Some optimizations are turned off because the +acc switch is in effect. This will cause your simulation to run slowly. Please use -access/-debug to maintain needed visibility.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.tb_key_filter(fast)
+# Loading work.key_filter(fast)
+add wave sim:/tb_key_filter/key_filter_inst/*
+run -all
+# Break key hit
+# Simulation stop requested.

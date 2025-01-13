@@ -1,0 +1,15 @@
+{C:/Users/y1499/OneDrive/Desktop/SystemVerilog/key filter/code/key_filter.v} {1 {vlog -work work -vopt -stats=none {C:/Users/y1499/OneDrive/Desktop/SystemVerilog/key filter/code/key_filter.v}
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module key_filter
+
+Top level modules:
+	key_filter
+
+} {} {}} {C:/Users/y1499/OneDrive/Desktop/SystemVerilog/key filter/code/tb_key_filter.v} {1 {vlog -work work -vopt -stats=none {C:/Users/y1499/OneDrive/Desktop/SystemVerilog/key filter/code/tb_key_filter.v}
+Questa Intel Starter FPGA Edition-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+-- Compiling module tb_key_filter
+
+Top level modules:
+	tb_key_filter
+
+} {} {}}

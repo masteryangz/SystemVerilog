@@ -1,0 +1,88 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+Z1 !s12c _opt
+R0
+R1
+R0
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/intelFPGA_lite/23.1std
+T_opt
+!s110 1736321901
+V`DbnE@bUd9WWYR2bz115e0
+Z3 04 13 4 work tb_key_filter fast 0
+=1-54bf6429bb7d-677e2b6b-395-28e0
+R0
+Z4 !s12b OEM100
+Z5 !s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work
+Z6 tCvgOpt 0
+n@_opt
+Z7 OL;O;2023.3;77
+R2
+T_opt1
+!s110 1736737303
+VX5YkEe33PJ_If3bk5Oe7T2
+R3
+=1-54bf6429bb7d-67848215-183-588
+R0
+R4
+R5
+o-quiet -auto_acc_if_foreign -work work +acc
+R6
+n@_opt1
+R7
+vkey_filter
+2C:/Users/y1499/OneDrive/Desktop/SystemVerilog/key filter/code/key_filter.v
+!s110 1736198708
+!i10b 1
+!s100 Bl2IfbT8o^5XEJlZz_@8G0
+IihlP;SXC3kSCfE_k2?5AE1
+Z8 dC:/Users/y1499/OneDrive/Desktop/SystemVerilog/key filter/simulation
+w1736197684
+8C:/Users/y1499/OneDrive/Desktop/SystemVerilog/key filter/code/key_filter.v
+FC:/Users/y1499/OneDrive/Desktop/SystemVerilog/key filter/code/key_filter.v
+!i122 1
+L0 1 28
+Z9 VDg1SIo80bB@j0V0VzS_@n1
+Z10 OL;L;2023.3;77
+r1
+!s85 0
+31
+!s108 1736198708.000000
+!s107 C:/Users/y1499/OneDrive/Desktop/SystemVerilog/key filter/code/key_filter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/y1499/OneDrive/Desktop/SystemVerilog/key filter/code/key_filter.v|
+!i113 0
+o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
+vtb_key_filter
+2tb_key_filter.v
+!s110 1736321833
+!i10b 1
+!s100 :0B:P6_4cazXfMFQ?4QKz2
+Ia<U6R6ozc_0N7F>bnj[SO0
+R8
+w1736198701
+8tb_key_filter.v
+Ftb_key_filter.v
+!i122 4
+L0 2 53
+R9
+R10
+r1
+!s85 0
+31
+!s108 1736321833.000000
+!s107 tb_key_filter.v|
+!s90 -reportprogress|300|+acc|tb_key_filter.v|
+!i113 0
+o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R6
