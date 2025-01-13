@@ -33,3 +33,5 @@ add wave sim:/tb_key_filter/key_filter_inst/*
 run -all
 # Break key hit
 # Simulation stop requested.
+# End time: 19:04:43 on Jan 12,2025, Elapsed time: 0:03:03
+# Errors: 0, Warnings: 2
