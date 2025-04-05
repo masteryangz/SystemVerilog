@@ -1,0 +1,15 @@
+C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_bcd.v {1 {vlog -work work -vopt -stats=none C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_bcd.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module tb_bcd
+
+Top level modules:
+	tb_bcd
+
+} {} {}} C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v {1 {vlog -work work -vopt -stats=none C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module bcd_8421
+
+Top level modules:
+	bcd_8421
+
+} {} {}}

@@ -1,0 +1,15 @@
+C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v {1 {vlog -work work -vopt -stats=none C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module data_gen
+
+Top level modules:
+	data_gen
+
+} {} {}} C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_data_gen.v {1 {vlog -work work -vopt -stats=none C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_data_gen.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module tb_data_gen
+
+Top level modules:
+	tb_data_gen
+
+} {} {}}
