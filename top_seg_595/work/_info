@@ -3,13 +3,15 @@ K4
 z2
 Z0 !s12c _opt2
 Z1 !s99 nomlopt
-R0
-R1
-R0
-R1
 Z2 !s12c _opt1
 R1
-R2
+Z3 !s12c _opt
+R1
+R0
+R1
+R0
+R1
+R0
 R1
 R2
 R1
@@ -27,7 +29,11 @@ R2
 R1
 R2
 R1
-!s12c _opt
+R2
+R1
+R2
+R1
+R3
 R1
 !s11f vlog 2024.3 2024.09, Sep 10 2024
 13
@@ -36,140 +42,301 @@ R1
 !i10e 25
 !i10f 100
 cModel Technology
-Z3 dC:/Users/yangz/AppData/Local/quartus
+Z4 dC:/Users/yangz/AppData/Local/quartus
 T_opt
-!s110 1743819873
-V=6[>YTB46A6@KL8eaG6XW0
-Z4 04 11 4 work tb_data_gen fast 0
-=1-985f411b61f6-67f09461-100-5b78
+!s110 1743992615
+VWmgc<D5DIdiEmTMVKfbCn3
+04 14 4 work tb_seg_dynamic fast 0
+=1-985f411b61f6-67f33725-370-3204
 R1
 Z5 !s12f OEM100
 Z6 !s12b OEM100
-Z7 !s124 OEM10U2 
-Z8 !s135 nogc
-o-quiet -auto_acc_if_foreign -work work
+!s124 OEM10U3 
+Z7 !s135 nogc
+Z8 o-quiet -auto_acc_if_foreign -work work +acc
 Z9 tCvgOpt 0
 n@_opt
 Z10 OL;O;2024.3;79
-R3
-T_opt1
-!s110 1743823200
-V=><XlP9WFhU9=L]lHDn4h3
 R4
-=1-985f411b61f6-67f0a160-16e-4d5c
+T_opt1
+!s110 1743995046
+VI6G_`f5U?7K]8Y8;Ld6TL1
+04 13 4 work tb_hc595_ctrl fast 0
+=1-985f411b61f6-67f340a6-161-50a0
 R1
 R5
 R6
+!s124 OEM10U2 
 R7
 R8
-Z11 o-quiet -auto_acc_if_foreign -work work +acc
 R9
 n@_opt1
 R10
-R3
+R4
 T_opt2
-!s110 1743825298
-VhJ;ClR`GO<AojK;il1G:a2
-04 6 4 work tb_bcd fast 0
-=1-985f411b61f6-67f0a991-265-4e9c
+!s110 1743996871
+V]@A`JVa=Ti3nC4Lzem@BR1
+04 14 4 work tb_top_seg_595 fast 0
+=1-985f411b61f6-67f347c6-2e2-2ae4
 R1
 R5
 R6
+!s124 OEM10U7 
 R7
 R8
-R11
 R9
 n@_opt2
 R10
 vbcd_8421
 2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v
-Z12 !s110 1743825281
+Z11 !s110 1743996856
 !i10b 1
 !s100 R8k6_WJk]OSjJ6;<VRZcF3
 I2;4mE<FzQ6bEC0_Df:kTj2
-Z13 dC:/Users/yangz/Desktop/SystemVerilog/top_seg_595
+Z12 dC:/Users/yangz/Desktop/SystemVerilog/top_seg_595
 w1743825269
 8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v
 FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v
-!i122 42
+!i122 67
 L0 1 75
-Z14 VDg1SIo80bB@j0V0VzS_@n1
-Z15 OL;L;2024.3;79
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2024.3;79
 r1
 !s85 0
 31
-Z16 !s108 1743825281.000000
+Z15 !s108 1743996856.000000
 !s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v|
 !i113 0
-Z17 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z16 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R9
 vdata_gen
 2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v
-Z18 !s110 1743823961
+R11
 !i10b 1
 !s100 bkHVb[eg?Bk]LTMAz1kCT2
 I0YSdVAfnYV2PU`;l1NnVk2
-R13
+R12
 w1743823180
 8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v
 FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v
-!i122 37
+!i122 68
 L0 1 49
+R13
 R14
-R15
 r1
 !s85 0
 31
-Z19 !s108 1743823961.000000
+R15
 !s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v|
 !i113 0
-R17
+R16
+R9
+vhc595_ctrl
+2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v
+R11
+!i10b 1
+!s100 `N2j4SS7D>?PEVWL`m3cX2
+I216fG3K]aRaPKTVf1^X0O3
+R12
+w1743994655
+8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v
+FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v
+!i122 69
+L0 1 58
+R13
+R14
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v|
+!i113 0
+R16
+R9
+vseg_595_dynamic
+2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_595_dynamic.v
+R11
+!i10b 1
+!s100 oT=i74]fB4WVKJc@LZmY_0
+IC:jQF5UU4<MzMPQ>a`35_1
+R12
+w1743996851
+8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_595_dynamic.v
+FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_595_dynamic.v
+!i122 70
+L0 1 40
+R13
+R14
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_595_dynamic.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_595_dynamic.v|
+!i113 0
+R16
+R9
+vseg_dynamic
+2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_dynamic.v
+R11
+!i10b 1
+!s100 Jg>9]ZR981CEOQcRUgEhK2
+IDa3hfGF7B]_>2W=3RYCL;1
+R12
+w1743992580
+8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_dynamic.v
+FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_dynamic.v
+!i122 71
+L0 1 139
+R13
+R14
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_dynamic.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_dynamic.v|
+!i113 0
+R16
 R9
 vtb_bcd
 2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_bcd.v
-R12
+!s110 1743825281
 !i10b 1
 !s100 @CfSR@UjmMEUBIeeIzHS:1
 IAQA?ZD;3nX`fO<hd1^00_1
-R13
+R12
 w1743824851
 8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_bcd.v
 FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_bcd.v
 !i122 43
 L0 2 41
+R13
 R14
-R15
 r1
 !s85 0
 31
-R16
+!s108 1743825281.000000
 !s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_bcd.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_bcd.v|
 !i113 0
-R17
+R16
 R9
 vtb_data_gen
 2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_data_gen.v
-R18
+!s110 1743823961
 !i10b 1
 !s100 D32bAE;gR]]HfkZ<`Z_ET0
 IihOC;173m`@LG^2aZgkYd3
-R13
+R12
 w1743822063
 8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_data_gen.v
 FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_data_gen.v
 !i122 36
 L0 2 36
+R13
 R14
-R15
 r1
 !s85 0
 31
-R19
+!s108 1743823961.000000
 !s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_data_gen.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_data_gen.v|
 !i113 0
-R17
+R16
+R9
+vtb_hc595_ctrl
+2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_hc595_ctrl.v
+!s110 1743995030
+!i10b 1
+!s100 `[8A@VbY_dA^8glSmk7Z52
+I^lDc7f=Pf2kjmz;CoJMeD0
+R12
+w1743994942
+8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_hc595_ctrl.v
+FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_hc595_ctrl.v
+!i122 53
+L0 2 40
+R13
+R14
+r1
+!s85 0
+31
+!s108 1743995030.000000
+!s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_hc595_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_hc595_ctrl.v|
+!i113 0
+R16
+R9
+vtb_seg_dynamic
+2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_seg_dynamic.v
+!s110 1743992592
+!i10b 1
+!s100 ci3dKV5;RCez;[nC:@Fn82
+I1nS^7HRUYZa7SGQg0QjhQ2
+R12
+w1743992207
+8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_seg_dynamic.v
+FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_seg_dynamic.v
+!i122 50
+L0 2 45
+R13
+R14
+r1
+!s85 0
+31
+!s108 1743992592.000000
+!s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_seg_dynamic.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_seg_dynamic.v|
+!i113 0
+R16
+R9
+vtb_top_seg_595
+2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_top_seg_595.v
+R11
+!i10b 1
+!s100 <f;OQ:2JI8N8TDZ@Y5`]Z1
+IkR7jSNe9a0h5Q;Gk_D?9T0
+R12
+w1743996551
+8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_top_seg_595.v
+FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_top_seg_595.v
+!i122 72
+L0 2 32
+R13
+R14
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_top_seg_595.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_top_seg_595.v|
+!i113 0
+R16
+R9
+vtop_seg_595
+2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/top_seg_595.v
+!s110 1743996857
+!i10b 1
+!s100 >H>BfN00mNFIYQ[<2gFQb2
+I>VI;B^j5?Gg0Qhj^bTPUY0
+R12
+w1743996748
+8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/top_seg_595.v
+FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/top_seg_595.v
+!i122 73
+L0 1 38
+R13
+R14
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/top_seg_595.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/top_seg_595.v|
+!i113 0
+R16
 R9

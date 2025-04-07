@@ -1,0 +1,15 @@
+C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v {1 {vlog -work work -vopt -stats=none C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module hc595_ctrl
+
+Top level modules:
+	hc595_ctrl
+
+} {} {}} C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_hc595_ctrl.v {1 {vlog -work work -vopt -stats=none C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_hc595_ctrl.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module tb_hc595_ctrl
+
+Top level modules:
+	tb_hc595_ctrl
+
+} {} {}}

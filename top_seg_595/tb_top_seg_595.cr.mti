@@ -1,0 +1,50 @@
+C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v {1 {vlog -work work -vopt -stats=none C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module hc595_ctrl
+
+Top level modules:
+	hc595_ctrl
+
+} {} {}} C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/top_seg_595.v {1 {vlog -work work -vopt -stats=none C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/top_seg_595.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module top_seg_595
+
+Top level modules:
+	top_seg_595
+
+} {} {}} C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_dynamic.v {1 {vlog -work work -vopt -stats=none C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_dynamic.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module seg_dynamic
+
+Top level modules:
+	seg_dynamic
+
+} {} {}} C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v {1 {vlog -work work -vopt -stats=none C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module data_gen
+
+Top level modules:
+	data_gen
+
+} {} {}} C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v {1 {vlog -work work -vopt -stats=none C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module bcd_8421
+
+Top level modules:
+	bcd_8421
+
+} {} {}} C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_top_seg_595.v {1 {vlog -work work -vopt -stats=none C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/tb_top_seg_595.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module tb_top_seg_595
+
+Top level modules:
+	tb_top_seg_595
+
+} {} {}} C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_595_dynamic.v {1 {vlog -work work -vopt -stats=none C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_595_dynamic.v
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+-- Compiling module seg_595_dynamic
+
+Top level modules:
+	seg_595_dynamic
+
+} {} {}}

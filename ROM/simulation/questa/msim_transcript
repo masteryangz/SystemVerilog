@@ -1,0 +1,183 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 win64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# do ROM_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Questa Intel Starter FPGA Edition-64 vmap 2024.3 Lib Mapping Utility 2024.09 Sep 10 2024
+# vmap work rtl_work 
+# Copying c:/intelfpga_lite/24.1std/questa_fse/win64/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM/ip_core {C:/Users/yangz/Desktop/SystemVerilog/ROM/ip_core/rom_256x8.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 12:11:10 on Apr 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM/ip_core" C:/Users/yangz/Desktop/SystemVerilog/ROM/ip_core/rom_256x8.v 
+# -- Compiling module rom_256x8
+# 
+# Top level modules:
+# 	rom_256x8
+# End time: 12:11:10 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/rom.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 12:11:10 on Apr 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM" C:/Users/yangz/Desktop/SystemVerilog/ROM/rom.v 
+# -- Compiling module ROM
+# 
+# Top level modules:
+# 	ROM
+# End time: 12:11:10 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/rom_ctrl.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 12:11:10 on Apr 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM" C:/Users/yangz/Desktop/SystemVerilog/ROM/rom_ctrl.v 
+# -- Compiling module rom_ctrl
+# 
+# Top level modules:
+# 	rom_ctrl
+# End time: 12:11:10 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/key_filter.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 12:11:11 on Apr 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM" C:/Users/yangz/Desktop/SystemVerilog/ROM/key_filter.v 
+# -- Compiling module key_filter
+# 
+# Top level modules:
+# 	key_filter
+# End time: 12:11:11 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/seg_595_dynamic.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 12:11:11 on Apr 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM" C:/Users/yangz/Desktop/SystemVerilog/ROM/seg_595_dynamic.v 
+# -- Compiling module seg_595_dynamic
+# 
+# Top level modules:
+# 	seg_595_dynamic
+# End time: 12:11:11 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/seg_dynamic.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 12:11:11 on Apr 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM" C:/Users/yangz/Desktop/SystemVerilog/ROM/seg_dynamic.v 
+# -- Compiling module seg_dynamic
+# 
+# Top level modules:
+# 	seg_dynamic
+# End time: 12:11:11 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/bcd_8421.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 12:11:11 on Apr 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM" C:/Users/yangz/Desktop/SystemVerilog/ROM/bcd_8421.v 
+# -- Compiling module bcd_8421
+# 
+# Top level modules:
+# 	bcd_8421
+# End time: 12:11:11 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/hc595_ctrl.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 12:11:11 on Apr 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM" C:/Users/yangz/Desktop/SystemVerilog/ROM/hc595_ctrl.v 
+# -- Compiling module hc595_ctrl
+# 
+# Top level modules:
+# 	hc595_ctrl
+# End time: 12:11:11 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/tb_rom.v}
+# Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+# Start time: 12:11:11 on Apr 07,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM" C:/Users/yangz/Desktop/SystemVerilog/ROM/tb_rom.v 
+# -- Compiling module tb_rom
+# 
+# Top level modules:
+# 	tb_rom
+# End time: 12:11:11 on Apr 07,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_rom
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" tb_rom 
+# Start time: 12:11:11 on Apr 07,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.tb_rom(fast)
+# Loading work.ROM(fast)
+# Loading work.rom_ctrl(fast)
+# Loading work.key_filter(fast)
+# Loading work.seg_595_dynamic(fast)
+# Loading work.seg_dynamic(fast)
+# Loading work.bcd_8421(fast)
+# Loading work.hc595_ctrl(fast)
+# Loading work.rom_256x8(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.altsyncram_body(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'point'. The port definition is at: C:/Users/yangz/Desktop/SystemVerilog/ROM/seg_595_dynamic.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rom/ROM_inst/seg_595_dynamic_inst File: C:/Users/yangz/Desktop/SystemVerilog/ROM/rom.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'sign'. The port definition is at: C:/Users/yangz/Desktop/SystemVerilog/ROM/seg_595_dynamic.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rom/ROM_inst/seg_595_dynamic_inst File: C:/Users/yangz/Desktop/SystemVerilog/ROM/rom.v Line: 40
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Break key hit
+# Break in Module seg_dynamic at C:/Users/yangz/Desktop/SystemVerilog/ROM/seg_dynamic.v line 46
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading work.tb_rom(fast)
+# Loading work.ROM(fast)
+# Loading work.rom_ctrl(fast)
+# Loading work.key_filter(fast)
+# Loading work.seg_595_dynamic(fast)
+# Loading work.seg_dynamic(fast)
+# Loading work.bcd_8421(fast)
+# Loading work.hc595_ctrl(fast)
+# Loading work.rom_256x8(fast)
+# Loading altera_mf_ver.altsyncram(fast)
+# Loading altera_mf_ver.altsyncram_body(fast)
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES(fast)
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (6) does not match connection size (32) for port 'point'. The port definition is at: C:/Users/yangz/Desktop/SystemVerilog/ROM/seg_595_dynamic.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rom/ROM_inst/seg_595_dynamic_inst File: C:/Users/yangz/Desktop/SystemVerilog/ROM/rom.v Line: 40
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'sign'. The port definition is at: C:/Users/yangz/Desktop/SystemVerilog/ROM/seg_595_dynamic.v(7).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rom/ROM_inst/seg_595_dynamic_inst File: C:/Users/yangz/Desktop/SystemVerilog/ROM/rom.v Line: 40
+add wave sim:/tb_rom/*
+add wave sim:/tb_rom/ROM_inst/*
+add wave sim:/tb_rom/ROM_inst/rom_ctrl_inst/*
+add wave sim:/tb_rom/ROM_inst/rom_256x8_inst/*
+add wave sim:/tb_rom/ROM_inst/rom_ctrl_inst/*
+add wave sim:/tb_rom/ROM_inst/rom_ctrl_inst/*
+add wave sim:/tb_rom/ROM_inst/rom_256x8_inst/*
+run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 12:31:14 on Apr 07,2025, Elapsed time: 0:20:03
+# Errors: 0, Warnings: 3

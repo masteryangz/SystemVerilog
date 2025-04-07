@@ -29,10 +29,10 @@ always #10 sys_clk = ~sys_clk;  // 20ns period = 50MHz
 
 // Reset logic
 initial begin
-    sys_rst_n = 0;
+    sys_rst_n = 1'b0;
     data = 20'd987654;
     #12;
-    sys_rst_n = 1;
+    sys_rst_n = 1'b1;
     #1000000000;
     $stop;
 end

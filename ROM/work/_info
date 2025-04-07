@@ -1,0 +1,265 @@
+m255
+K4
+z2
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/yangz/AppData/Local/quartus
+vbcd_8421
+2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v
+Z0 !s110 1744051661
+!i10b 1
+!s100 R8k6_WJk]OSjJ6;<VRZcF3
+I2;4mE<FzQ6bEC0_Df:kTj2
+Z1 dC:/Users/yangz/Desktop/SystemVerilog/ROM
+w1743825269
+8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v
+FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v
+!i122 37
+L0 1 75
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 OL;L;2024.3;79
+r1
+!s85 0
+31
+Z4 !s108 1744051661.000000
+!s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/bcd_8421.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 tCvgOpt 0
+vdata_gen
+2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v
+R0
+!i10b 1
+!s100 bkHVb[eg?Bk]LTMAz1kCT2
+I0YSdVAfnYV2PU`;l1NnVk2
+R1
+w1743823180
+8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v
+FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v
+!i122 38
+L0 1 49
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/data_gen.v|
+!i113 0
+R5
+R6
+vhc595_ctrl
+2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v
+R0
+!i10b 1
+!s100 `N2j4SS7D>?PEVWL`m3cX2
+I216fG3K]aRaPKTVf1^X0O3
+R1
+w1743994655
+8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v
+FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v
+!i122 39
+L0 1 58
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/hc595_ctrl.v|
+!i113 0
+R5
+R6
+vkey_filter
+2C:/Users/yangz/Desktop/SystemVerilog/key filter/code/key_filter.v
+R0
+!i10b 1
+!s100 R1BnPO94Knkzn=QV_8=5k0
+IOh6TNb1m[TTXGQ0?c2z5f2
+R1
+w1743114042
+8C:/Users/yangz/Desktop/SystemVerilog/key filter/code/key_filter.v
+FC:/Users/yangz/Desktop/SystemVerilog/key filter/code/key_filter.v
+!i122 36
+L0 1 28
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/yangz/Desktop/SystemVerilog/key filter/code/key_filter.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/key filter/code/key_filter.v|
+!i113 0
+R5
+R6
+vROM
+Z7 2C:/Users/yangz/Desktop/SystemVerilog/ROM/code/ROM.v
+R0
+!i10b 1
+!s100 U?H@[PZ8LdlcXKVkfZT8U2
+I>[j]>:ooFlf6745U=H[5n1
+R1
+w1744051598
+Z8 8C:/Users/yangz/Desktop/SystemVerilog/ROM/code/ROM.v
+Z9 FC:/Users/yangz/Desktop/SystemVerilog/ROM/code/ROM.v
+!i122 33
+Z10 L0 1 59
+R2
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 C:/Users/yangz/Desktop/SystemVerilog/ROM/code/ROM.v|
+Z12 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/ROM/code/ROM.v|
+!i113 0
+R5
+R6
+n@r@o@m
+vrom
+R7
+!s110 1744051551
+!i10b 1
+!s100 Z3>6zL5QkPCzd:>kC:>j<3
+Ikc1<34XXDJ9O;2EzXAMD>0
+R1
+w1744051521
+R8
+R9
+!i122 15
+R10
+R2
+R3
+r1
+!s85 0
+31
+!s108 1744051551.000000
+R11
+R12
+!i113 0
+R5
+R6
+vrom_256x8
+2C:/Users/yangz/Desktop/SystemVerilog/ROM/ip_core/rom_256x8.v
+Z13 !s110 1744051662
+!i10b 1
+!s100 <9GMb3YbOWI2QnW@MCj<H1
+INa?hKA8FZY_X47>jnJUC10
+R1
+w1743393911
+8C:/Users/yangz/Desktop/SystemVerilog/ROM/ip_core/rom_256x8.v
+FC:/Users/yangz/Desktop/SystemVerilog/ROM/ip_core/rom_256x8.v
+!i122 42
+L0 40 61
+R2
+R3
+r1
+!s85 0
+31
+Z14 !s108 1744051662.000000
+!s107 C:/Users/yangz/Desktop/SystemVerilog/ROM/ip_core/rom_256x8.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/ROM/ip_core/rom_256x8.v|
+!i113 0
+R5
+R6
+vrom_ctrl
+2C:/Users/yangz/Desktop/SystemVerilog/ROM/code/rom_ctrl.v
+R0
+!i10b 1
+!s100 =bgO7fUHAMFCim>jkg1K23
+IbWB?@_GSCQaDJ`TkPb@dG0
+R1
+w1744051547
+8C:/Users/yangz/Desktop/SystemVerilog/ROM/code/rom_ctrl.v
+FC:/Users/yangz/Desktop/SystemVerilog/ROM/code/rom_ctrl.v
+!i122 34
+L0 1 46
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/yangz/Desktop/SystemVerilog/ROM/code/rom_ctrl.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/ROM/code/rom_ctrl.v|
+!i113 0
+R5
+R6
+vseg_595_dynamic
+2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_595_dynamic.v
+R13
+!i10b 1
+!s100 oT=i74]fB4WVKJc@LZmY_0
+IC:jQF5UU4<MzMPQ>a`35_1
+R1
+w1743996851
+8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_595_dynamic.v
+FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_595_dynamic.v
+!i122 40
+L0 1 40
+R2
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_595_dynamic.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_595_dynamic.v|
+!i113 0
+R5
+R6
+vseg_dynamic
+2C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_dynamic.v
+R13
+!i10b 1
+!s100 Jg>9]ZR981CEOQcRUgEhK2
+IDa3hfGF7B]_>2W=3RYCL;1
+R1
+w1743992580
+8C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_dynamic.v
+FC:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_dynamic.v
+!i122 41
+L0 1 139
+R2
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_dynamic.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/top_seg_595/code/seg_dynamic.v|
+!i113 0
+R5
+R6
+vtb_rom
+2C:/Users/yangz/Desktop/SystemVerilog/ROM/code/tb_rom.v
+R0
+!i10b 1
+!s100 [HnX25EL1Y];BPiXbA05f2
+ICbI1d671H?m_FPAh0>^`k1
+R1
+w1744051183
+8C:/Users/yangz/Desktop/SystemVerilog/ROM/code/tb_rom.v
+FC:/Users/yangz/Desktop/SystemVerilog/ROM/code/tb_rom.v
+!i122 35
+L0 2 95
+R2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/yangz/Desktop/SystemVerilog/ROM/code/tb_rom.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/yangz/Desktop/SystemVerilog/ROM/code/tb_rom.v|
+!i113 0
+R5
+R6

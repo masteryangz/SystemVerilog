@@ -1,0 +1,16 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM/ip_core {C:/Users/yangz/Desktop/SystemVerilog/ROM/ip_core/rom_256x8.v}
+vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/rom.v}
+vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/rom_ctrl.v}
+vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/key_filter.v}
+vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/seg_595_dynamic.v}
+vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/seg_dynamic.v}
+vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/bcd_8421.v}
+vlog -vlog01compat -work work +incdir+C:/Users/yangz/Desktop/SystemVerilog/ROM {C:/Users/yangz/Desktop/SystemVerilog/ROM/hc595_ctrl.v}
+
